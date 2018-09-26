@@ -1,3 +1,24 @@
+:root {
+   /* Modify these to change your theme colors: */
+   --primary: #000;
+   --text: #00ff00;
+   --background: #000;
+   --background-elevated: #222;
+
+   /* These should be less important: */
+   --background-hover: rgba(255, 255, 255, 0.1);
+   --background-light: #AAA;
+   --background-bright: #FFF;
+
+   --border-dim: #666;
+   --border-bright: var(--primary);
+
+   --text-bright: #FFF;
+   --text-special: var(--primary);
+
+   --scrollbar-background: #000;
+   --scrollbar-border: var(--primary);
+}
 
 body.light_theme, #footer_msgs, div.c-message.c-message--light.c-message--hover, div.channel_header, .c-scrollbar__hider:before, #search_terms {
     background: #000;
